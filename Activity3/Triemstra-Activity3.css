@@ -1,0 +1,71 @@
+/* ITIS 3135 Activity 3 css file */
+
+body {
+    width: 750px;
+    margin: 0 auto;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin: 20px auto;
+    width: 50%;
+    /* Remove table-layout: fixed;  Let content determine width */
+}
+
+caption {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+thead {
+    background-color: lightgreen;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 0.5em 1em;
+    text-align: left;
+    vertical-align: middle;
+    white-space: nowrap; /* Prevent wrapping within cells */
+    overflow: hidden;      /* Hide overflowing content */
+    text-overflow: ellipsis; /* Add ellipsis (...) for overflow */
+}
+
+th {
+    background-color: #f2f2f2;
+}.right {
+    text-align: right;
+}
+
+tbody tr:nth-child(odd) td {
+    background-color: yellow;
+}.department {
+    font-style: italic;
+}
+
+tfoot {
+    font-weight: bold;
+    background-color: lightgreen;
+}
+
+tfoot td {
+    font-weight: normal;
+}
+
+tfoot tr td:first-child {
+    font-weight: bold;
+}
+
+/* Specific fix for "Years of Service" - if still needed */
+th:last-child {
+    padding: 0.5em 0.5em; /* Adjust padding if necessary */
+}
+
+/* Adjust header cell height - if needed */
+th {
+    height: auto;
+    padding: 0.8em 1em;
+}
