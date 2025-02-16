@@ -1,0 +1,19 @@
+address {
+    background-color: #1900ff; /* Light beige/cream - you can change this */
+    padding: 10px;
+    border: 1px solid #000000; /* Optional border */
+    margin-bottom: 20px; /* Space below address */
+}
+
+.same-background {
+    background-color: #ff0088; /* Soft pink - you can change this */
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+    max-width: 200px; /* Prevents image from overflowing */
+    height: auto; /* Maintains aspect ratio */
+}
